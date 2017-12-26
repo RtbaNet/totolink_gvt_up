@@ -1,0 +1,114 @@
+
+<!-- saved from url=(0029)http://192.168.1.1/upload.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+
+<link rel="stylesheet" type="text/css" href="./Firmware Update_files/stylemain.css">
+<script type="text/javascript" src="./Firmware Update_files/util.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Firmware Update_files/share.js"></script>
+<script type="text/javascript" src="./Firmware Update_files/menu.js"></script></head><body><iframe id="iframetemp" style="position:absolute; display:none; z-index:0; width:0; height:0" frameborder="0" scrolling="no" marginwidth="0" src="" marginheight="0"></iframe><div id="popitmenu" onmouseover="clearhidemenu();" onmouseout="dynamichide(event)">menu</div>
+<title>Firmware Update</title>
+<script>
+var uploadClick=0;
+function sendClicked()
+{
+var str =  document.getElementById("uploadfilename").value;
+if(str.length==0)	{
+alert("Please select file to upload");
+return false;
+}
+if (!confirm('Do you really want to upgrade the firmware?'))
+return false;
+else
+{
+if(uploadClick==0)
+{
+uploadClick=1;
+}
+else
+{
+alert("The request is in process, please wait a few seconds!");
+return false;
+}
+return true;
+}
+}
+</script>
+<link href="./Firmware Update_files/stylemain.css" rel="stylesheet" type="text/css">
+
+
+<blockquote>
+<script language="JavaScript">
+TabHeader="Maintenance";
+SideItem="Firmware Update";
+HelpItem="firmwareupdate";
+</script>
+<script type="text/javascript">
+mainTableStart();
+logo();
+TopNav();
+ThirdRowStart();
+Write_Item_Images();
+mainBodyStart();
+</script><style>div.overflow{	overflow: auto;	width: 530px;}</style><div align="center" style="display: block;" id="tblmain"><table cellspacing="0" width="840"><tbody><tr><td><table id="header_container" width="840"><tbody><tr><td align="left" width="240">Product Page: DSL-2740E</td><td align="right" width="600">Firmware Version: RT-20140211</td></tr></tbody></table><table cellspacing="0" width="100%"><tbody><tr><td height="3" style="background:white"></td></tr></tbody></table><table cellspacing="0" width="840"><tbody><tr><td id="masthead_container" width="840"><img alt="" src="./Firmware Update_files/img_masthead.gif" width="840"></td></tr></tbody></table><table cellspacing="0" width="100%" style="background-color:f1f1f1" height="3px" border="0"><tbody><tr><td width="840"></td></tr></tbody></table><table id="topnav_container2" border="0" cellspacing="0"><tbody><tr><td style="background-color:white; width:1px;"></td><td id="modnum" rowspan="2" background="./Firmware Update_files/img_short_modnum.gif" style="font-size:10px"><b><em>&nbsp;DSL-2740E</em></b></td><td style="background-color:white; width:2px;"></td><td width="140" class="topnavoff"><a href="http://192.168.1.1/tcpiplan_with_mac_addr_ctrl_linkmode.htm">Setup</a></td><td style="background-color:white; width:2px;"></td><td width="140" class="topnavoff"><a href="http://192.168.1.1/wladvanced.htm">Advanced</a></td><td style="background-color:white; width:2px;"></td><td width="140" class="topnavon" rowspan="2"><a href="http://192.168.1.1/system.htm">Maintenance</a></td><td style="background-color:white; width:2px;"></td><td width="140" class="topnavoff"><a href="http://192.168.1.1/status.htm">Status</a></td><td style="background-color:white; width:2px;"></td><td width="140" class="topnavoff"><a href="http://192.168.1.1/helpmenu.htm">Help</a></td><td style="background-color:white; width:2px;"></td></tr><tr><td></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td><td style="background-color:#404343;"></td></tr></tbody></table><table cellspacing="0" width="100%" style="background-color:f1f1f1" height:3px="" border="0"><tbody><tr><td width="840"></td></tr></tbody></table><table id="content_container" cellspacing="0" summary="" border="0" width="840"><tbody><tr><td id="sidenav_container"><div id="sidenav"><ul><li><div><a href="http://192.168.1.1/system.htm">System</a></div></li><li><div class="sidenavoff"><a href="./Firmware Update_files/Firmware Update.html">Firmware Update</a></div></li><li><div><a href="http://192.168.1.1/userconfig.htm">Password</a></div></li><li><div onmouseover="showmenu(event,linkset[8], this)" onmouseout="delayhidemenu()" id="dmenu8"><a href="http://192.168.1.1/ping.htm">Diagnostics</a></div></li><li><div><a href="http://192.168.1.1/logging.htm">System Log</a></div></li><li><div><a href="http://192.168.1.1/weblogout.htm">Logout</a></div></li></ul></div></td><td id="maincontent_container"><table><tbody><tr><td><div id="maincontent" style="width:563">
+<form action="http://192.168.1.1/form2file.htm" method="POST" enctype="multipart/form-data" name="password">
+<table id="box_header" border="0" cellspacing="0">
+<tbody><tr>
+<td class="topheader">Upgrade Firmware</td>
+</tr>
+<tr>
+<td class="content">
+<p><b>Step 1:</b> Obtain an updated firmware image file from your ISP.<br><br>
+<b>Step 2:</b> Enter the path to the image file location in the box below or click the "Browse" button to locate the image file.
+<br><br>
+<b>Step 3:</b> Click the "Update Firmware" button once to upload the new image file.
+<br><br>
+<b>NOTE:</b> The update process takes about 2 minutes to complete, and your DSL Router will reboot. Please DO NOT power off your router before the update is complete.
+</p>
+</td>
+</tr>
+</tbody></table>
+<br>
+<table id="body_header" border="0" cellspacing="0">
+<tbody><tr>
+<td class="topheader">Select File</td>
+</tr>
+<tr>
+<td class="content" align="left">
+<table class="formarea" border="0" cellpadding="0" cellspacing="0" width="500">
+<tbody><tr>
+<td class="form_label_left">Current Firmware Version:</td>
+<td class="form_label_right">
+RT-20140211 </td>
+</tr>
+<tr>
+<td class="form_label_left">Current Firmware Date:</td>
+<td class="form_label_right">
+Feb 11 2014 19:09:45 </td>
+</tr>
+<tr>
+<td class="form_label_left">Firmware File Name:</td>
+<td class="form_label_right">
+<input type="file" id="uploadfilename" name="download image file" size="30">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<br>
+<input type="submit" value="Update Firmware" name="send" onclick="return sendClicked()">&nbsp;&nbsp;
+<input type="reset" value="Reset" name="reset">
+<input type="hidden" name="submit" value="Send"> 
+</form>
+<script type="text/javascript">
+mainBodyEnd();
+ThirdRowEnd();
+Footer()
+mainTableEnd()
+</script></div></td></tr></tbody></table></td><td id="sidehelp_container"><div id="help_text"><label id="helpLabel"><b>Helpful Hints...</b> <br><br> <b>Please Note:</b> This page displays your device firmware version and information that will be helpfulfor D-Link technicians should you require any technical support<br>If your router is working without issue, there should be no need to update your firmware. This information is just for your reference as it is often unnecessary to upload new firmware to your router.<br><br><a href="http://192.168.1.1/helpmain.htm#Update">More...</a></label><script language="Javascript" src="./Firmware Update_files/mainhelp.htm"></script></div></td></tr></tbody></table><table id="footer_container" cellspacing="0" border="0"><tbody><tr><td id="leftimage"><img height="35" alt="" src="./Firmware Update_files/img_broadband_bottom.gif" width="114"></td><td><iframe id="attFrameid" name="attention" align="middle" src="./Firmware Update_files/attention.html" height="35" width="100%%" frameborder="0" scrolling="no"></iframe></td></tr></tbody></table></td></tr></tbody></table><div id="copyright">Copyright © 2005-2012 D-Link Systems, Inc.</div></div>
+</blockquote>
+
+
+
+</body></html>
